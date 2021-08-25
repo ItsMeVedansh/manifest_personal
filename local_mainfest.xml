@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote  name="Zyrus"
+                fetch="https://github.com/ItsMeVedansh" />
+
+        <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="Zyrus" revision="test" clone-depth="1" />
+        <project path="kernel/xiaomi/ysl" name="logan_ysl" remote="Zyrus" revision="xr" clone-depth="1" />
+        <project path="vendor/xiaomi/ysl" name="vendor_xiaomi_ysl" remote="Zyrus" revision="r11.0" clone-depth="1" />
+
+</manifest>
